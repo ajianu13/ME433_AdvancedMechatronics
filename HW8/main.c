@@ -72,6 +72,20 @@ uint8_t spi_ram_read_byte(uint16_t addr) {
     return result;
 }
 
+// Multi bit read
+void spi_ram_read_bytes(uint16_t addr, uint8_t *buf, int len) {
+    uint8_t header[3];
+    header[0] = RAM_CMD_READ;
+    header[1] = (addr >> 8) & 0xFF;
+    header[2] = addr & 0xFF;
+
+    cs_select(PIN_CS_RAM);
+    spi_write_blocking(SPI_PORT, header, 3);
+    spi_read_blocking(SPI_PORT, 0x00, buf, len);
+    cs_deselect(PIN_CS_RAM);
+}
+
+
 void generate_sine_to_ram() {
     for (int n = 0; n < 1000; n++) {
         float t = (float)n / 1000.0f;
@@ -111,6 +125,12 @@ void playback_loop() {
             uint16_t addr = n * 2;
             uint8_t hi = spi_ram_read_byte(addr);
             uint8_t lo = spi_ram_read_byte(addr + 1);
+
+            // DEBUGG
+            uint8_t check[2];
+            spi_ram_read_bytes(addr, check, 2);
+            //printf("n=%d WROTE %02X %02X READ %02X %02X\n", n, hi, lo, check[0], check[1]);
+            // DEBUGG
             uint16_t word = ((uint16_t)hi << 8) | lo;
 
             printf("%u\n", word);
