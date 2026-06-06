@@ -1,4 +1,6 @@
 #include "mpu6050.h"
+#define PICO_DEFAULT_LED_PIN 25
+
 
 static void write_reg(uint8_t reg, uint8_t val) {
     uint8_t buf[2] = {reg, val};

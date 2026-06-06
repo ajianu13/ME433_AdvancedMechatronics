@@ -37,7 +37,7 @@ target_link_libraries(HW5
     hardware_adc
 )
 
-pico_enable_stdio_usb(HW4 1)
-pico_enable_stdio_uart(HW4 0)
+pico_enable_stdio_usb(HW5 1)
+pico_enable_stdio_uart(HW5 0)
 
-pico_add_extra_outputs(HW4)
+pico_add_extra_outputs(HW5)

@@ -1,0 +1,114 @@
+# ninja log v7
+22	654	8024070799465144	pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj	8cc9a79e8f834137
+658	1147	8024070810259217	pico-sdk/src/rp2350/boot_stage2/bs2_default.elf	1cde3c5102cad0d5
+658	1147	8024070810259217	pico-sdk/src/rp2350/boot_stage2/bs2_default.dis	1cde3c5102cad0d5
+658	1147	8024070810259217	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW5/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.dis	1cde3c5102cad0d5
+1148	1216	8024070811296934	pico-sdk/src/rp2350/boot_stage2/bs2_default.bin	44b0564f80ae5913
+1148	1216	8024070811296934	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW5/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.bin	44b0564f80ae5913
+1216	1455	8024070813505825	pico-sdk/src/rp2350/boot_stage2/bs2_default_padded_checksummed.S	e2a26a714c8e3541
+1216	1455	8024070813505825	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW5/build/pico-sdk/src/rp2350/boot_stage2/bs2_default_padded_checksummed.S	e2a26a714c8e3541
+1614	1756	8024070815470082	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj	7b279a999b70f453
+1536	2011	8024070814706909	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_platform_common/common.c.obj	7984efe9ab420681
+1519	2050	8024070814526583	CMakeFiles/HW5.dir/pico-sdk/src/rp2350/pico_platform/platform.c.obj	5e61fd4789ccbfa7
+1569	2060	8024070815030772	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj	883457d05b94966a
+1664	2071	8024070815979928	CMakeFiles/HW5.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj	d5b5df316542d53d
+1639	2085	8024070815708878	CMakeFiles/HW5.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj	d9bccd418fe3fbc4
+1694	2126	8024070816283527	CMakeFiles/HW5.dir/pico-sdk/src/common/pico_time/timeout_helper.c.obj	2f89b2b4ef1b512a
+1558	2137	8024070814928624	CMakeFiles/HW5.dir/pico-sdk/src/common/hardware_claim/claim.c.obj	bc2f645cc69d0e2f
+1582	2154	8024070815140835	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj	ef85ef4a4fd6334c
+1629	2206	8024070815628130	CMakeFiles/HW5.dir/pico-sdk/src/common/pico_sync/sem.c.obj	ce38adecf613fce7
+1756	2235	8024070816898864	CMakeFiles/HW5.dir/pico-sdk/src/common/pico_util/queue.c.obj	9305ae3a88ec1da5
+1651	2250	8024070815848303	CMakeFiles/HW5.dir/pico-sdk/src/common/pico_sync/mutex.c.obj	8efa92bf45139a44
+1743	2327	8024070816712104	CMakeFiles/HW5.dir/pico-sdk/src/common/pico_util/pheap.c.obj	a9ae7a1371617089
+1597	2380	8024070815305674	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj	a14a87364dbf7661
+1548	2390	8024070814813143	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj	d7edbd6d5ec1a788
+1717	2419	8024070816511216	CMakeFiles/HW5.dir/pico-sdk/src/common/pico_util/datetime.c.obj	f141dccb4ae894cc
+1705	2438	8024070816418570	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj	53c6904462234fb3
+2072	2450	8024070820061018	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj	96d994ee7dbb6c5d
+1496	2592	8024070814299680	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj	6f018ef9f0ec0cd9
+2236	2595	8024070821683485	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.obj	3d7efa341e10ecec
+2126	2596	8024070820593179	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj	939b1da226150d01
+2061	2597	8024070819946438	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj	93bed88300bcb96b
+2012	2598	8024070819439442	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj	26ee0fb4a8ed8a3d
+2328	2604	8024070822613253	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/hardware_divider/divider.c.obj	546cc38394dce643
+1506	2617	8024070814411436	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj	447e1f1e71284104
+1463	2627	8024070813967034	CMakeFiles/HW5.dir/ssd1306.c.obj	c511404028e43e99
+2381	2632	8024070823138292	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj	35a7ae54981cb8ae
+2209	2636	8024070821482131	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj	c4f5ae4401d99f9b
+2450	2640	8024070823840710	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj	68c6995f7dc5cbcd
+2165	2644	8024070821050539	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj	be550f44554051e0
+2254	2650	8024070821885539	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj	20920b39c2259b19
+2439	2672	8024070823723587	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj	b5bdd42370d800ee
+1680	2687	8024070816143006	CMakeFiles/HW5.dir/pico-sdk/src/common/pico_time/time.c.obj	24d156bb8eff8a2e
+2420	2720	8024070823522725	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj	678792a97a2272ed
+2088	2723	8024070820247883	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj	2f23bf578d9b2109
+2138	2757	8024070820713943	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj	ee25191d7e04247
+2051	2810	8024070819845831	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj	b2a3146264aa7b33
+2390	2846	8024070823239282	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj	d947e4b4f2637ef1
+204	415	8024072134329481	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.obj	18803b78708609cf
+215	430	8024072134432541	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.obj	82c894dd03c6f3b8
+238	459	8024072134675718	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.obj	3dec099053e76d39
+253	475	8024072134817208	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.obj	bd68ae020d3f0d0b
+263	488	8024072134917803	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.obj	bd7a93d214ecfd09
+129	501	8024072133581094	CMakeFiles/HW5.dir/mpu6050.c.obj	f857c4603c8b43a5
+193	525	8024072134220617	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.obj	ce4b3c444e2c5002
+177	542	8024072134061682	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.obj	99716bfadad1595c
+277	589	8024072135067796	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj	e06867633314b613
+316	606	8024072135458042	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj	e65ae7f32101854e
+145	620	8024072133720372	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.obj	1819001269e3f80d
+341	723	8024072135692428	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj	2454e334a222a567
+292	797	8024072135207374	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj	bfa45e43cc0d4c39
+304	844	8024072135328425	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj	6fa574d2562a9f4a
+353	852	8024072135823928	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj	e240e1e9b3dbcae3
+476	856	8024072137045759	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.obj	3264fc74e99c7122
+441	857	8024072136723742	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj	f79f3ee66ebf7d8d
+589	864	8024072138166987	CMakeFiles/HW5.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj	33525c549f2678cd
+367	940	8024072135965928	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj	4f7175540bdd3ed9
+731	977	8024072139643060	CMakeFiles/HW5.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj	dd5c634e87681001
+641	984	8024072138941466	CMakeFiles/HW5.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj	bad700f16f1c92a4
+416	1048	8024072136458021	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj	ecc726bd3fbbd2d6
+506	1057	8024072137346472	CMakeFiles/HW5.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj	983a4e9d5ae0129
+384	1084	8024072136129901	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj	5cf93fd1eefbe6f3
+460	1102	8024072136879667	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj	f97efd1b3e248005
+549	1105	8024072137828494	CMakeFiles/HW5.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj	9d78a0c45e84f35d
+227	1119	8024072134569041	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.obj	56047384d03412f4
+397	1171	8024072136264903	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj	90e5dd4bf290043b
+606	1205	8024072138352498	CMakeFiles/HW5.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj	f63edab432043dfb
+161	1217	8024072133894350	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.obj	7ac03dcf42b34219
+489	1219	8024072137181921	CMakeFiles/HW5.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj	75912ce46598011
+329	1280	8024072135581743	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj	99c54ffac15fac9f
+525	1471	8024072137524124	CMakeFiles/HW5.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj	3cb04f7c79d86b05
+160	365	8024073714314868	CMakeFiles/HW5.dir/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj	c51ff8b74f25b324
+177	383	8024073714487188	CMakeFiles/HW5.dir/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj	e0b06df0b1c6f8e5
+139	384	8024073714102376	CMakeFiles/HW5.dir/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj	3645fa0e9c4580c8
+193	398	8024073714651982	CMakeFiles/HW5.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj	a053aa775c8bcca5
+203	411	8024073714748335	CMakeFiles/HW5.dir/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj	dc9db8815fa80daa
+220	416	8024073714912512	CMakeFiles/HW5.dir/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj	71eb62aff3edbd64
+238	466	8024073715084357	CMakeFiles/HW5.dir/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj	147a6a3b81dba1c2
+341	467	8024073716130031	pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.obj	b62f685a5f7ac89c
+285	467	8024073715570010	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj	e90e77e816441d9
+227	562	8024073714996209	CMakeFiles/HW5.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj	7f149a884ef39968
+308	606	8024073715829599	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj	7223bf1abbd573b7
+297	657	8024073715686790	CMakeFiles/HW5.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj	74582e9c41171cb4
+256	672	8024073715281215	CMakeFiles/HW5.dir/pico-sdk/lib/tinyusb/src/tusb.c.obj	6d2a6c5fe01ed530
+269	747	8024073715424475	CMakeFiles/HW5.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj	eff2a1c2f0585c81
+106	364	8024075945959779	CMakeFiles/HW5.dir/main.c.obj	c8be59f8fbb2eca4
+365	1049	8024075954803929	HW5.elf	2c3ceb286279948d
+365	1049	8024075954803929	HW5.dis	2c3ceb286279948d
+365	1049	8024075954803929	HW5.hex	2c3ceb286279948d
+365	1049	8024075954803929	HW5.bin	2c3ceb286279948d
+365	1049	8024075954803929	HW5.uf2	2c3ceb286279948d
+365	1049	8024075954803929	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW5/build/HW5.dis	2c3ceb286279948d
+365	1049	8024075954803929	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW5/build/HW5.hex	2c3ceb286279948d
+365	1049	8024075954803929	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW5/build/HW5.bin	2c3ceb286279948d
+365	1049	8024075954803929	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW5/build/HW5.uf2	2c3ceb286279948d
+104	434	8024078127910323	CMakeFiles/HW5.dir/main.c.obj	c8be59f8fbb2eca4
+435	1086	8024078137181739	HW5.elf	2c3ceb286279948d
+435	1086	8024078137181739	HW5.dis	2c3ceb286279948d
+435	1086	8024078137181739	HW5.hex	2c3ceb286279948d
+435	1086	8024078137181739	HW5.bin	2c3ceb286279948d
+435	1086	8024078137181739	HW5.uf2	2c3ceb286279948d
+435	1086	8024078137181739	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW5/build/HW5.dis	2c3ceb286279948d
+435	1086	8024078137181739	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW5/build/HW5.hex	2c3ceb286279948d
+435	1086	8024078137181739	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW5/build/HW5.bin	2c3ceb286279948d
+435	1086	8024078137181739	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW5/build/HW5.uf2	2c3ceb286279948d
