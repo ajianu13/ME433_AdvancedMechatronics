@@ -1,0 +1,268 @@
+# ninja log v7
+23	99	8024714160692323	pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj	3cade74e4b53a95f
+110	272	8024714162999323	pico-sdk/src/rp2350/boot_stage2/bs2_default.elf	54ce10d9c47a6d12
+110	272	8024714162999323	pico-sdk/src/rp2350/boot_stage2/bs2_default.dis	54ce10d9c47a6d12
+110	272	8024714162999323	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.dis	54ce10d9c47a6d12
+273	313	8024714163533659	pico-sdk/src/rp2350/boot_stage2/bs2_default.bin	77ec449c0fe5e244
+273	313	8024714163533659	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2350/boot_stage2/bs2_default.bin	77ec449c0fe5e244
+313	405	8024714164422556	pico-sdk/src/rp2350/boot_stage2/bs2_default_padded_checksummed.S	f0838bc3d4231310
+313	405	8024714164422556	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2350/boot_stage2/bs2_default_padded_checksummed.S	f0838bc3d4231310
+459	728	8024714165072056	CMakeFiles/HW6.dir/pico-sdk/src/rp2350/pico_platform/platform.c.obj	1f93827d3b6bc265
+481	738	8024714165263438	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/pico_platform_common/common.c.obj	a566fdb325dad009
+555	752	8024714166017541	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj	d9d2d10f764c1edc
+519	845	8024714165659060	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj	d9730ec5baecb7c9
+424	855	8024714164684168	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj	b58ccfd48aa0ef83
+505	868	8024714165522989	CMakeFiles/HW6.dir/pico-sdk/src/common/hardware_claim/claim.c.obj	d8ad58aab8963ba5
+411	904	8024714164509146	CMakeFiles/HW6.dir/usb_descriptors.c.obj	fadce3ca29a58689
+494	934	8024714165405299	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.obj	a3a8eef6c4c99259
+88	432	8024720975195012	CMakeFiles/HW6.dir/main.c.obj	260347472619afd8
+592	980	8024714166392497	CMakeFiles/HW6.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj	3ca5394c0d4395e0
+530	1001	8024714165732020	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj	f4b4cde260a4d700
+568	1012	8024714166234101	CMakeFiles/HW6.dir/pico-sdk/src/common/pico_sync/sem.c.obj	ceb7491518c604dc
+638	1026	8024714166843778	CMakeFiles/HW6.dir/pico-sdk/src/common/pico_time/timeout_helper.c.obj	263aeba55bc3664e
+615	1144	8024714166637617	CMakeFiles/HW6.dir/pico-sdk/src/common/pico_sync/critical_section.c.obj	e5a29ba02c8661ad
+603	1177	8024714166501056	CMakeFiles/HW6.dir/pico-sdk/src/common/pico_sync/mutex.c.obj	f126845ffcaf6883
+540	1196	8024714165851157	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj	5d632ec5865054d
+441	1242	8024714164882108	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj	fef25f594ab4d6d9
+675	1271	8024714167207649	CMakeFiles/HW6.dir/pico-sdk/src/common/pico_util/datetime.c.obj	62dcc4087221387e
+845	1281	8024714168917992	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj	5945c8e5b27a8eda
+880	1294	8024714169388243	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.obj	57540c2b9d118938
+758	1305	8024714168072341	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj	55832bd93085ca31
+715	1318	8024714167617106	CMakeFiles/HW6.dir/pico-sdk/src/common/pico_util/queue.c.obj	c973f3ed380023ac
+728	1328	8024714167754686	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj	c70dbe347c81e770
+934	1339	8024714169801659	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.obj	d9ba45fc5db18eff
+1013	1384	8024714170595522	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/hardware_divider/divider.c.obj	c01a053513ee9b8
+649	1402	8024714167116655	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj	e1713061c91b0e92
+1002	1427	8024714170480386	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj	b044223a922de7f3
+705	1439	8024714167507463	CMakeFiles/HW6.dir/pico-sdk/src/common/pico_util/pheap.c.obj	ccbf5413826ec271
+855	1462	8024714169014807	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj	c7d9a1bb441e3c8
+949	1474	8024714170112280	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.obj	b3cb9e6a205a3775
+1328	1487	8024714173753461	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.obj	fdcaf02e80e3ab9
+983	1497	8024714170328135	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.obj	b2344893d3fd247f
+913	1511	8024714169647839	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj	3dfbb053f61e4b38
+1211	1521	8024714172656301	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj	d0f6055142affa22
+1041	1534	8024714171718288	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj	379b7c2067d37515
+1428	1552	8024714174734487	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.obj	7b08b373ba9322f8
+738	1562	8024714167851114	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj	e3a368cf14304963
+1253	1573	8024714173030451	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj	2fa30aef378dc043
+1294	1584	8024714173407777	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.obj	b6df1b772e3d4473
+1305	1610	8024714173539953	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.obj	9b515749d710c281
+1179	1623	8024714172292928	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj	10c9f0a902a4ed04
+627	1653	8024714166739090	CMakeFiles/HW6.dir/pico-sdk/src/common/pico_time/time.c.obj	11f6e600126a129e
+1318	1691	8024714173642865	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.obj	2b6ca495aa640a97
+1487	1702	8024714175338833	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj	66a77dd4fb013a90
+1389	1721	8024714174368355	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.obj	c22c525241985768
+1511	1733	8024714175578900	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/pico_crt0/crt0.S.obj	d9343df3c33b16f0
+1403	1749	8024714174548148	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.obj	9d5e300a5e887cfc
+1154	1805	8024714172064887	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.obj	cea31f3da44dc6dc
+1271	1823	8024714173165007	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.obj	66f463ca12478a01
+1692	1866	8024714177383563	CMakeFiles/HW6.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj	975455c2960ecf69
+1440	1876	8024714174895760	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.obj	20e72914fafe5eaf
+1704	1905	8024714177521635	CMakeFiles/HW6.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj	718b30b7ddf40a14
+1721	1930	8024714177668800	CMakeFiles/HW6.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj	5bd1dd2a91bb254c
+1734	1942	8024714177809458	CMakeFiles/HW6.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj	f3779e68ba63a97c
+1474	2000	8024714175212093	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj	2a3a26b34d29347e
+1831	2041	8024714178866349	CMakeFiles/HW6.dir/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj	55c2c26ea4d68a7d
+1463	2094	8024714175095756	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.obj	3a5982a764948b8e
+1866	2104	8024714179123152	CMakeFiles/HW6.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj	aede0a15e066137
+1881	2115	8024714179357759	CMakeFiles/HW6.dir/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj	9684154b2745123b
+1910	2126	8024714179576895	CMakeFiles/HW6.dir/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj	aaaf6aa4a19e2c7e
+1574	2140	8024714176206720	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj	a19de0375874b04f
+1930	2155	8024714179771145	CMakeFiles/HW6.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj	27d4ac85973a1b84
+1953	2172	8024714180059487	CMakeFiles/HW6.dir/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj	4ca18b7b71559f75
+1521	2176	8024714175667662	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.obj	8c8e6fb5b98f0f1
+1805	2184	8024714178516829	CMakeFiles/HW6.dir/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj	e32780dc55c5b136
+1552	2190	8024714175986941	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj	d09a743af99933c7
+1656	2195	8024714177100348	CMakeFiles/HW6.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj	b86f7b8b91142c76
+1537	2207	8024714175868176	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj	ac2fa813f12eea32
+1564	2216	8024714176092445	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj	bbce3fe5954e0088
+1610	2226	8024714176572424	CMakeFiles/HW6.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj	a31c889bbcbba0db
+1346	2231	8024714173934692	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.obj	3ba9ccbb5fcfe477
+2156	2278	8024714182026078	pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.obj	ed0e2d55dde3b0ca
+2094	2280	8024714181413520	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj	c0774178969a9329
+1281	2285	8024714173282058	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.obj	878715edf3c89323
+1588	2298	8024714176389343	CMakeFiles/HW6.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj	5bdcc1325b99b591
+1755	2301	8024714178274431	CMakeFiles/HW6.dir/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj	3a5714ea6ae5f5a8
+2141	2342	8024714181885818	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.obj	172b5f3bfc24d1ed
+2115	2385	8024714181624117	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj	7d29439f49b02ab7
+1498	2463	8024714175445351	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj	927d2b30018fefa6
+2105	2468	8024714181513413	CMakeFiles/HW6.dir/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj	b774c241c0c3ea1c
+2006	2503	8024714180617236	CMakeFiles/HW6.dir/pico-sdk/lib/tinyusb/src/tusb.c.obj	73fef2a8951e558f
+2127	2504	8024714181725635	CMakeFiles/HW6.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj	6bccc63ba492019f
+1628	2519	8024714176843849	CMakeFiles/HW6.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.obj	d12f82653506b136
+2056	2555	8024714181163637	CMakeFiles/HW6.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj	9c00366391744755
+433	798	8024720982223142	HW6.elf	c8398ce61bcdb3b6
+433	798	8024720982223142	HW6.dis	c8398ce61bcdb3b6
+433	798	8024720982223142	HW6.hex	c8398ce61bcdb3b6
+433	798	8024720982223142	HW6.bin	c8398ce61bcdb3b6
+433	798	8024720982223142	HW6.uf2	c8398ce61bcdb3b6
+433	798	8024720982223142	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/HW6.dis	c8398ce61bcdb3b6
+433	798	8024720982223142	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/HW6.hex	c8398ce61bcdb3b6
+433	798	8024720982223142	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/HW6.bin	c8398ce61bcdb3b6
+433	798	8024720982223142	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/HW6.uf2	c8398ce61bcdb3b6
+17	1008	8024722842949394	build.ninja	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/tools/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/common/boot_picobin_headers/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/common/boot_picoboot_headers/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/common/boot_uf2_headers/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/common/pico_base_headers/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/common/pico_usb_reset_interface_headers/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/common/pico_bit_ops_headers/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/common/pico_binary_info/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/common/pico_divider_headers/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/common/pico_sync/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/common/pico_time/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/common/pico_util/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/common/pico_stdlib_headers/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/common/hardware_claim/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2350/pico_platform/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2350/hardware_regs/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2350/hardware_structs/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2350/boot_stage2/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/hardware_base/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/hardware_adc/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/hardware_boot_lock/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/hardware_clocks/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/hardware_divider/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/hardware_dma/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/hardware_exception/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/hardware_flash/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/hardware_gpio/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/hardware_i2c/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/hardware_interp/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/hardware_irq/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/hardware_pio/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/hardware_pll/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/hardware_pwm/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/hardware_resets/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/hardware_spi/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/hardware_sync/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/hardware_sync_spin_lock/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/hardware_ticks/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/hardware_timer/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/hardware_uart/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/hardware_vreg/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/hardware_watchdog/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/hardware_xip_cache/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/hardware_xosc/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/hardware_powman/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/hardware_riscv_platform_timer/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/hardware_sha256/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/hardware_dcp/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/hardware_rcp/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/boot_bootrom_headers/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_platform_common/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_platform_compiler/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_platform_sections/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_platform_panic/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_aon_timer/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_bootrom/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_multicore/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_unique_id/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_atomic/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_bit_ops/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_divider/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_double/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_int64_ops/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_flash/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_float/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_mem_ops/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_malloc/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_printf/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_rand/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_sha256/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_stdio_semihosting/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_stdio_uart/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_stdio_rtt/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/cmsis/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/tinyusb/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_stdio_usb/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_i2c_slave/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_async_context/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_btstack/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_mbedtls/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_lwip/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_lwip/tools/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_cyw43_arch/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_time_adapter/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_crt0/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_clib_interface/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_cxx_options/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_standard_binary_info/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_standard_link/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_fix/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_status_led/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_runtime_init/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_runtime/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_stdio/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/src/rp2_common/pico_stdlib/cmake_install.cmake	ad0655ab2c928b97
+17	1008	8024722842949394	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/pico-sdk/docs/cmake_install.cmake	ad0655ab2c928b97
+59	271	8024722844756714	CMakeFiles/HW6.dir/mpu6050.c.obj	fe9157e246c40f3e
+53	306	8024722844726639	CMakeFiles/HW6.dir/main.c.obj	260347472619afd8
+307	699	8024722851088785	HW6.elf	e470643276a35eb
+307	699	8024722851088785	HW6.dis	e470643276a35eb
+307	699	8024722851088785	HW6.hex	e470643276a35eb
+307	699	8024722851088785	HW6.bin	e470643276a35eb
+307	699	8024722851088785	HW6.uf2	e470643276a35eb
+307	699	8024722851088785	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/HW6.dis	e470643276a35eb
+307	699	8024722851088785	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/HW6.hex	e470643276a35eb
+307	699	8024722851088785	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/HW6.bin	e470643276a35eb
+307	699	8024722851088785	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/HW6.uf2	e470643276a35eb
+691	4271	8024735481908979	CMakeFiles/HW6.dir/mpu6050.c.obj	fe9157e246c40f3e
+142	4997	8024735476441254	CMakeFiles/HW6.dir/main.c.obj	260347472619afd8
+4998	8912	8024735563450390	HW6.elf	e470643276a35eb
+4998	8912	8024735563450390	HW6.dis	e470643276a35eb
+4998	8912	8024735563450390	HW6.hex	e470643276a35eb
+4998	8912	8024735563450390	HW6.bin	e470643276a35eb
+4998	8912	8024735563450390	HW6.uf2	e470643276a35eb
+4998	8912	8024735563450390	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/HW6.dis	e470643276a35eb
+4998	8912	8024735563450390	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/HW6.hex	e470643276a35eb
+4998	8912	8024735563450390	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/HW6.bin	e470643276a35eb
+4998	8912	8024735563450390	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/HW6.uf2	e470643276a35eb
+96	404	8024738239344961	CMakeFiles/HW6.dir/main.c.obj	260347472619afd8
+406	1126	8024738248999222	HW6.elf	e470643276a35eb
+406	1126	8024738248999222	HW6.dis	e470643276a35eb
+406	1126	8024738248999222	HW6.hex	e470643276a35eb
+406	1126	8024738248999222	HW6.bin	e470643276a35eb
+406	1126	8024738248999222	HW6.uf2	e470643276a35eb
+406	1126	8024738248999222	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/HW6.dis	e470643276a35eb
+406	1126	8024738248999222	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/HW6.hex	e470643276a35eb
+406	1126	8024738248999222	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/HW6.bin	e470643276a35eb
+406	1126	8024738248999222	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/HW6.uf2	e470643276a35eb
+108	452	8024740506807749	CMakeFiles/HW6.dir/main.c.obj	260347472619afd8
+453	1094	8024740516078519	HW6.elf	e470643276a35eb
+453	1094	8024740516078519	HW6.dis	e470643276a35eb
+453	1094	8024740516078519	HW6.hex	e470643276a35eb
+453	1094	8024740516078519	HW6.bin	e470643276a35eb
+453	1094	8024740516078519	HW6.uf2	e470643276a35eb
+453	1094	8024740516078519	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/HW6.dis	e470643276a35eb
+453	1094	8024740516078519	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/HW6.hex	e470643276a35eb
+453	1094	8024740516078519	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/HW6.bin	e470643276a35eb
+453	1094	8024740516078519	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/HW6.uf2	e470643276a35eb
+81	433	8024741141558987	CMakeFiles/HW6.dir/main.c.obj	260347472619afd8
+436	1036	8024741150704998	HW6.elf	e470643276a35eb
+436	1036	8024741150704998	HW6.dis	e470643276a35eb
+436	1036	8024741150704998	HW6.hex	e470643276a35eb
+436	1036	8024741150704998	HW6.bin	e470643276a35eb
+436	1036	8024741150704998	HW6.uf2	e470643276a35eb
+436	1036	8024741150704998	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/HW6.dis	e470643276a35eb
+436	1036	8024741150704998	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/HW6.hex	e470643276a35eb
+436	1036	8024741150704998	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/HW6.bin	e470643276a35eb
+436	1036	8024741150704998	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/HW6.uf2	e470643276a35eb
+131	467	8024743064110398	CMakeFiles/HW6.dir/main.c.obj	260347472619afd8
+469	1174	8024743073930354	HW6.elf	e470643276a35eb
+469	1174	8024743073930354	HW6.dis	e470643276a35eb
+469	1174	8024743073930354	HW6.hex	e470643276a35eb
+469	1174	8024743073930354	HW6.bin	e470643276a35eb
+469	1174	8024743073930354	HW6.uf2	e470643276a35eb
+469	1174	8024743073930354	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/HW6.dis	e470643276a35eb
+469	1174	8024743073930354	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/HW6.hex	e470643276a35eb
+469	1174	8024743073930354	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/HW6.bin	e470643276a35eb
+469	1174	8024743073930354	C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW6/build/HW6.uf2	e470643276a35eb
