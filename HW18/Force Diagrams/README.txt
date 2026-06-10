@@ -1,0 +1,1 @@
+Use tab to toggle between effects in visualizer
