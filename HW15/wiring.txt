@@ -1,0 +1,36 @@
+POWER + GROUND
+Nucleo 3.3 V rail feeds:
+INA219 VCC
+DRV8833 SLEEP
+Pot outer pin
+
+Nucleo GND rail feeds:
+INA219 GND
+DRV8833 GND
+Pot outer pin
+Battery pack black wire
+
+POTENTIOMETER
+Middle pin -> PA0
+Outer pins -> 3.3 V and GND (order doesn’t matter)
+
+INA219
+SDA -> PA6
+SCL -> PA7
+VIN+ -> Motor wire B
+VIN− -> DRV8833 OUT2/OUT4
+
+DRV8833
+IN1 -> PA8
+IN2 -> PA1
+IN1 -> IN3
+IN2 -> IN4
+OUT1 -> OUT3
+OUT2 -> OUT4
+VCC -> battery red wire (isolated node)
+GND -> ground rail
+SLEEP -> 3.3 V
+
+MOTOR
+Motor A -> OUT1/OUT3
+Motor B -> VIN+

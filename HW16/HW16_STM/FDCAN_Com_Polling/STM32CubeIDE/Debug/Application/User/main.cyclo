@@ -12,5 +12,5 @@ C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/
 C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW16/HW16_STM/FDCAN_Com_Polling/Src/main.c:597:13:MX_TIM2_Init	4
 C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW16/HW16_STM/FDCAN_Com_Polling/Src/main.c:642:13:MX_USART1_UART_Init	5
 C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW16/HW16_STM/FDCAN_Com_Polling/Src/main.c:690:13:MX_GPIO_Init	1
-C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW16/HW16_STM/FDCAN_Com_Polling/Src/main.c:716:6:HAL_TIM_PeriodElapsedCallback	17
-C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW16/HW16_STM/FDCAN_Com_Polling/Src/main.c:829:6:Error_Handler	1
+C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW16/HW16_STM/FDCAN_Com_Polling/Src/main.c:716:6:HAL_TIM_PeriodElapsedCallback	8
+C:/Users/jianu/Downloads/ME344 Advanced Mechatronics/ME433_AdvancedMechatronics/HW16/HW16_STM/FDCAN_Com_Polling/Src/main.c:854:6:Error_Handler	1

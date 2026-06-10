@@ -728,92 +728,117 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
             return;
         }
 
-        if (state == 1)
+        // HW15
+        int16_t joy = pot - 2048;     // center at 0
+        int16_t duty = joy / 2;       // scale to ±1000
+
+        // clamp duty to valid PWM range
+        if (duty > 2399) duty = 2399;
+        if (duty < -2399) duty = -2399;
+
+        // HW15 DIRECTION + PWM
+        if (duty >= 0)
         {
-            int16_t cur_raw = readINA219(INA219_REG_CURRENT);
-            float cur_ma = cur_raw / 3.0f;   // adjust if your scaling differs
+            // forward
+            __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, 2400 - duty);
+            __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, 2400);
+        }
+        else
+        {
+            // reverse
+            __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, 2400);
+            __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, 2400 - (-duty));
+        }
 
-            // PI control
-            float err = desired_current - cur_ma;
-            // SYMMETRY PATCH 1: deadband
-            if (fabsf(err) < 2.0f) {
-                err = 0.0f;
-            }
-            i_err += err;
-            if (i_err > 1000.0f)  i_err = 1000.0f;
-            if (i_err < -1000.0f) i_err = -1000.0f;
+        // HW15 UART PRINT
+        printf("duty = %d\r\n", duty);
 
-
+//        if (state == 1)
+//        {
+//            int16_t cur_raw = readINA219(INA219_REG_CURRENT);
+//            float cur_ma = cur_raw / 3.0f;   // adjust if your scaling differs
+//
+//            // PI control
+//            float err = desired_current - cur_ma;
+//            // SYMMETRY PATCH 1: deadband
+//            if (fabsf(err) < 2.0f) {
+//                err = 0.0f;
+//            }
+//            i_err += err;
+//            if (i_err > 1000.0f)  i_err = 1000.0f;
+//            if (i_err < -1000.0f) i_err = -1000.0f;
+//
+//
+////            float u = kp * err + ki * i_err;
+////
+////            int duty = 2400 - (int)u;   // smaller = faster
+////            if (duty < 0) duty = 0;
+////            if (duty > 2400) duty = 2400;
+////
+////            __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, 2400);
+////            __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, duty);
 //            float u = kp * err + ki * i_err;
 //
-//            int duty = 2400 - (int)u;   // smaller = faster
-//            if (duty < 0) duty = 0;
-//            if (duty > 2400) duty = 2400;
+//            // limit PI output
+//            if (u > 2399) u = 2399;
+//            if (u < -2399) u = -2399;
 //
-//            __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, 2400);
-//            __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, duty);
-            float u = kp * err + ki * i_err;
-
-            // limit PI output
-            if (u > 2399) u = 2399;
-            if (u < -2399) u = -2399;
-
-            //int duty = (int)fabsf(u);
-            //if (duty > 2399) duty = 2399;
-            float u_norm = u / 2399.0f;      // -1 to +1
-            float duty_norm = fabsf(u_norm); // 0 to 1
-            int duty = (int)(duty_norm * 2399.0f);
-
-            // SYMMETRY PATCH 2: minimum duty
-            if (duty > 0 && duty < 30)
-                duty = 30;
-
-            // direction control
-            if (u >= 0) {
-                // forward: IN1 = high, IN2 = PWM
-                __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, 2400);
-                __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, 2400 - duty);
-            } else {
-                // reverse: IN2 = high, IN1 = PWM
-                __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, 2400);
-                __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, 2400 - duty);
-            }
-
-
-            // logging
-            if (isr_count < N_SAMPLES)
-            {
-                idx_log[isr_count] = isr_count;
-                des_log[isr_count] = (int16_t)desired_current;
-                cur_log[isr_count] = cur_raw;
-            }
-
-            isr_count++;
-
-            // flip desired current every 100 samples
+//            //int duty = (int)fabsf(u);
+//            //if (duty > 2399) duty = 2399;
+//            float u_norm = u / 2399.0f;      // -1 to +1
+//            float duty_norm = fabsf(u_norm); // 0 to 1
+//            int duty = (int)(duty_norm * 2399.0f);
+//
+//            // SYMMETRY PATCH 2: minimum duty
+//            if (duty > 0 && duty < 30)
+//                duty = 30;
+//
+//            // direction control
+//            if (u >= 0) {
+//                // forward: IN1 = high, IN2 = PWM
+//                __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, 2400);
+//                __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, 2400 - duty);
+//            } else {
+//                // reverse: IN2 = high, IN1 = PWM
+//                __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, 2400);
+//                __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, 2400 - duty);
+//            }
+//
+//
+//            // logging
+//            if (isr_count < N_SAMPLES)
+//            {
+//                idx_log[isr_count] = isr_count;
+//                des_log[isr_count] = (int16_t)desired_current;
+//                cur_log[isr_count] = cur_raw;
+//            }
+//
+//            isr_count++;
+//
+//            // flip desired current every 100 samples
+////            if (isr_count % 100 == 0)
+////            {
+////                desired_current = -desired_current;
+////            }
 //            if (isr_count % 100 == 0)
 //            {
-//                desired_current = -desired_current;
+//                desired_current = (desired_current > 0 ? -60.0f : 60.0f);
 //            }
-            if (isr_count % 100 == 0)
-            {
-                desired_current = (desired_current > 0 ? -60.0f : 60.0f);
-            }
-
-
-            // stop after N_SAMPLES
-            if (isr_count >= N_SAMPLES)
-            {
-                __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, 2400);
-                __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, 2400);
-
-                isr_count = 0;
-                i_err = 0;
-                // desired_current = 100.0f;
-                desired_current = 60.0f;
-                state = 0;
-            }
-        }
+//
+//
+//            // stop after N_SAMPLES
+//            if (isr_count >= N_SAMPLES)
+//            {
+//                __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, 2400);
+//                __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, 2400);
+//
+//                isr_count = 0;
+//                i_err = 0;
+//                // desired_current = 100.0f;
+//                desired_current = 60.0f;
+//                state = 0;
+//            }
+//        }
     }
 }
 
