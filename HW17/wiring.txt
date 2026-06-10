@@ -1,0 +1,11 @@
+Same wiring as HW16 but more!
+
+We use I2C1 on the Pico
+SDA: GP14
+SCL: GP15
+
+AS5600 Pico
+VCC	3V3
+GND	GND
+SDA	GP14
+SCL	GP15
